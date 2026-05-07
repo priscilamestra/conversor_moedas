@@ -1,0 +1,9 @@
+[project]
+name = "conversor-moedas"
+version = "0.1.0"
+description = "Conversor de moedas em tempo real usando a API Frankfurter"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "requests>=2.32.0",
+]
