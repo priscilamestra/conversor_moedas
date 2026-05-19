@@ -4,6 +4,8 @@ Um conversor de moedas dinâmico desenvolvido em Python que consome dados em tem
 
 O principal diferencial deste projeto é a sua **Arquitetura Modular (Multi-Frontend)**. A lógica de negócio e as requisições HTTP foram isoladas em um módulo central, permitindo que o sistema seja operado por duas interfaces completamente diferentes (Terminal e Web) sem a necessidade de reescrever o código de processamento.
 
+![Demonstração da Interface Web do Conversor](img/app_interface.png)
+
 ##  Arquitetura e Diferenciais
 
 - **Separação de Responsabilidades (Clean Architecture):** O núcleo lógico (`currency_converter.py`) é blindado e independente, não contendo código de interface gráfica ou prints de terminal.
