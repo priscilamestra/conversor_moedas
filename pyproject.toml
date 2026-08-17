@@ -8,3 +8,4 @@ dependencies = [
     "requests>=2.32.0",
     "streamlit>=1.40.1",
 ]
+
