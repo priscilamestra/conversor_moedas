@@ -1,6 +1,6 @@
 import streamlit as st
 
-# Importa a lógica de cálculo do seu arquivo blindado
+# Importa a lógica de cálculo do seu arquivo
 from currency_converter import brl_to, SUPPORTED 
 
 # Configuração da aba do navegador
