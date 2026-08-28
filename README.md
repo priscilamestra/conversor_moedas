@@ -2,6 +2,8 @@
 
 ![Python](https://img.shields.io/badge/Python-3.14-3776AB?style=flat-square&logo=python&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) ![API Integration](https://img.shields.io/badge/API-Integration-0A66C2?style=flat-square) ![uv](https://img.shields.io/badge/uv-DE5FE9?style=flat-square&logo=uv&logoColor=white) ![MIT License](https://img.shields.io/badge/License-MIT-2EA44F?style=flat-square)
 
+🚀 **Live Demo:** [Try the application](https://currency-converter-real.streamlit.app/)
+
 A real-time currency converter built with **Python and Streamlit**, using live exchange-rate data from the [Frankfurter API](https://api.frankfurter.dev/).
 
 The project uses a **modular multi-interface architecture**, keeping the currency-conversion logic and HTTP integration separate from the user interfaces.
@@ -111,43 +113,20 @@ conversor-moedas/
 |---|---|
 | Language | Python |
 | Web interface | Streamlit |
+| Command-line interface | Python CLI |
 | External data | Frankfurter API |
 | HTTP integration | requests |
+| Deployment | Streamlit Community Cloud |
 | Dependency management | uv |
 | Version control | Git + GitHub |
 
-## Running Locally
+## Deployment
 
-### 1. Clone the repository
+The Streamlit web interface is deployed and publicly accessible through **Streamlit Community Cloud**.
 
-```bash
-git clone https://github.com/priscilamestra/conversor-moedas.git
-cd conversor-moedas
-```
+🚀 **Live Application:** [currency-converter-real.streamlit.app](https://currency-converter-real.streamlit.app/)
 
-### 2. Install dependencies
-
-```bash
-uv sync
-```
-
-### 3. Run the Streamlit interface
-
-```bash
-uv run streamlit run app.py
-```
-
-The application will be available locally at:
-
-```text
-http://localhost:8501
-```
-
-### 4. Run the CLI
-
-```bash
-uv run python main.py
-```
+The deployed application consumes live exchange-rate data from the Frankfurter API and uses the same shared conversion module as the command-line interface.
 
 ## What This Project Demonstrates
 
@@ -161,9 +140,14 @@ This project demonstrates:
 - HTTP request handling;
 - Streamlit application development;
 - defensive error handling;
+- cloud deployment with Streamlit Community Cloud;
 - dependency management with uv;
 - Git-based development workflow.
+
+The project shows how a small application can be structured so that **business logic remains independent from the interface**, allowing different frontends to consume the same underlying functionality without duplicating implementation.
 
 ## License
 
 This project is licensed under the **MIT License**.
+
+See [`LICENSE`](LICENSE) for details.
