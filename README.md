@@ -92,7 +92,7 @@ These checks reduce the risk of the application failing unexpectedly when the ex
 ## Project Structure
 
 ```text
-conversor_moedas/
+conversor-moedas/
 ├── img/
 │   └── app-interface.png
 ├── app.py
@@ -121,8 +121,8 @@ conversor_moedas/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/priscilamestra/conversor_moedas.git
-cd conversor_moedas
+git clone https://github.com/priscilamestra/conversor-moedas.git
+cd conversor-moedas
 ```
 
 ### 2. Install dependencies
